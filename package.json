@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "backend for aviasales test task",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx ts-node server.ts"
+  },
+  "author": "Lavr Tsiporin <avatar_str@list.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.1.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "ts-node": "^10.8.1"
+  }
+}
