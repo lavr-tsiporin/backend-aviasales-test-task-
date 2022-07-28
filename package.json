@@ -4,14 +4,15 @@
   "description": "backend for aviasales test task",
   "main": "index.js",
   "scripts": {
-    "serve": "npx ts-node server.ts"
+    "server": "npx ts-node server.ts"
   },
   "author": "Lavr Tsiporin <avatar_str@list.ru>",
   "license": "ISC",
   "dependencies": {
     "@fastify/cors": "^8.0.0",
     "fastify": "^4.1.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "@fastify/static": "^6.4.1"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
